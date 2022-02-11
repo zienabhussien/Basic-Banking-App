@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context=".ui.UserDataFragment">
+
+
+    <ImageView
+        android:padding="5dp"
+        android:src="@drawable/ic_baseline_person_24"
+        android:requiresFadingEdge="horizontal"
+        android:fadingEdge="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="Name : "
+            android:textColor="@color/orange"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:textAlignment="textEnd"
+            android:fontFamily="serif"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:paddingEnd="10dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"            android:text="Account No : "/>
+
+        <TextView
+            android:id="@+id/account_no_tv"
+            android:textAlignment="textEnd"
+            android:fontFamily="serif"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:paddingEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"
+            android:text="Email : "/>
+
+        <TextView
+            android:id="@+id/email_tv"
+            android:textAlignment="textEnd"
+            android:fontFamily="serif"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:paddingEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"
+            android:text="IFSC Code : "/>
+
+        <TextView
+            android:id="@+id/ifsc_tv"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:fontFamily="serif"
+            android:textSize="18sp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"
+            android:text="Mobile No : "/>
+
+        <TextView
+            android:id="@+id/phone_no_tv"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:fontFamily="serif"
+            android:textSize="18sp"
+            android:paddingEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"
+            android:text="Current Balance : "/>
+
+        <TextView
+            android:id="@+id/avail_balance_tv"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:fontFamily="serif"
+            android:textSize="18sp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+ <Button
+     android:id="@+id/transfer_money_btn"
+     android:layout_width="200dp"
+     android:layout_height="56dp"
+     android:text="Transfer Money"
+     android:textSize="21sp"
+     android:textStyle="bold"
+     android:padding="5dp"
+     android:backgroundTint="@color/orange"
+     android:textColor="@color/white"
+     android:layout_marginTop="100dp"
+     android:layout_marginRight="100dp"
+     android:layout_marginLeft="100dp"/>
+
+
+</LinearLayout>

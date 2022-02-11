@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Kotlin Projects/BasicBankApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2703125" />
+        <entry key="..\:/Kotlin Projects/BasicBankApp/app/src/main/res/layout/activity_main.xml" value="0.25025641025641027" />
+        <entry key="..\:/Kotlin Projects/BasicBankApp/app/src/main/res/layout/dialog_box.xml" value="0.25416666666666665" />
+        <entry key="..\:/Kotlin Projects/BasicBankApp/app/src/main/res/layout/fragment_send_to_user_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Kotlin Projects/BasicBankApp/app/src/main/res/layout/fragment_start.xml" value="0.25025641025641027" />
+        <entry key="..\:/Kotlin Projects/BasicBankApp/app/src/main/res/layout/fragment_transaction_history.xml" value="0.2" />
+        <entry key="..\:/Kotlin Projects/BasicBankApp/app/src/main/res/layout/fragment_user_data.xml" value="0.24010416666666667" />
+        <entry key="..\:/Kotlin Projects/BasicBankApp/app/src/main/res/layout/fragment_user_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Kotlin Projects/BasicBankApp/app/src/main/res/layout/transaction_history_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Kotlin Projects/BasicBankApp/app/src/main/res/layout/user_list_item.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
